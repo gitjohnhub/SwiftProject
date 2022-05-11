@@ -17,7 +17,10 @@ struct CustomDatePicker: View {
         VStack(spacing: 35.0) {
             
             // Days...
-            let days:[String] = ["Sun","Mon","Tue","Wed","Thu","Fri","Sat"]
+            let days:[String] = Calendar.current.weekdaySymbols.compactMap { value in
+                return String(value.prefix(3))
+            }
+//            let days:[String] = ["Sun","Mon","Tue","Wed","Thu","Fri","Sat"]
             
             HStack(spacing: 20.0) {
                 VStack(alignment: .leading, spacing: 10.0) {
