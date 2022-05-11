@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct DatePickerProjectApp: App {
+struct DatePickerApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()

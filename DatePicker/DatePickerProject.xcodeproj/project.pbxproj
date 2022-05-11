@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1995C75C275F7E7F00E417C3 /* DatePickerProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1995C74C275F7E7E00E417C3 /* DatePickerProjectApp.swift */; };
-		1995C75D275F7E7F00E417C3 /* DatePickerProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1995C74C275F7E7E00E417C3 /* DatePickerProjectApp.swift */; };
+		1995C75C275F7E7F00E417C3 /* DatePickerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1995C74C275F7E7E00E417C3 /* DatePickerApp.swift */; };
+		1995C75D275F7E7F00E417C3 /* DatePickerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1995C74C275F7E7E00E417C3 /* DatePickerApp.swift */; };
 		1995C75E275F7E7F00E417C3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1995C74D275F7E7E00E417C3 /* ContentView.swift */; };
 		1995C75F275F7E7F00E417C3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1995C74D275F7E7E00E417C3 /* ContentView.swift */; };
 		1995C760275F7E7F00E417C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1995C74E275F7E7F00E417C3 /* Assets.xcassets */; };
@@ -24,10 +24,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1995C74C275F7E7E00E417C3 /* DatePickerProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerProjectApp.swift; sourceTree = "<group>"; };
+		1995C74C275F7E7E00E417C3 /* DatePickerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerApp.swift; sourceTree = "<group>"; };
 		1995C74D275F7E7E00E417C3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1995C74E275F7E7F00E417C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		1995C753275F7E7F00E417C3 /* DatePickerProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DatePickerProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1995C753275F7E7F00E417C3 /* DatePicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DatePicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1995C759275F7E7F00E417C3 /* DatePickerProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DatePickerProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1995C75B275F7E7F00E417C3 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		1995C76A275F7EB700E417C3 /* Home.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
@@ -66,7 +66,7 @@
 		1995C74B275F7E7E00E417C3 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				1995C74C275F7E7E00E417C3 /* DatePickerProjectApp.swift */,
+				1995C74C275F7E7E00E417C3 /* DatePickerApp.swift */,
 				1995C74D275F7E7E00E417C3 /* ContentView.swift */,
 				1995C774275F7EF800E417C3 /* View */,
 				1995C773275F7ED800E417C3 /* Model */,
@@ -78,7 +78,7 @@
 		1995C754275F7E7F00E417C3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1995C753275F7E7F00E417C3 /* DatePickerProject.app */,
+				1995C753275F7E7F00E417C3 /* DatePicker.app */,
 				1995C759275F7E7F00E417C3 /* DatePickerProject.app */,
 			);
 			name = Products;
@@ -127,7 +127,7 @@
 			);
 			name = "DatePickerProject (iOS)";
 			productName = "DatePickerProject (iOS)";
-			productReference = 1995C753275F7E7F00E417C3 /* DatePickerProject.app */;
+			productReference = 1995C753275F7E7F00E417C3 /* DatePicker.app */;
 			productType = "com.apple.product-type.application";
 		};
 		1995C758275F7E7F00E417C3 /* DatePickerProject (macOS) */ = {
@@ -155,7 +155,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1310;
-				LastUpgradeCheck = 1310;
+				LastUpgradeCheck = 1330;
 				TargetAttributes = {
 					1995C752275F7E7F00E417C3 = {
 						CreatedOnToolsVersion = 13.1;
@@ -213,7 +213,7 @@
 				1995C776275F7F0600E417C3 /* CustomDatePicker.swift in Sources */,
 				1995C771275F7ED000E417C3 /* Task.swift in Sources */,
 				1995C76B275F7EB700E417C3 /* Home.swift in Sources */,
-				1995C75C275F7E7F00E417C3 /* DatePickerProjectApp.swift in Sources */,
+				1995C75C275F7E7F00E417C3 /* DatePickerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -226,7 +226,7 @@
 				1995C777275F7F0600E417C3 /* CustomDatePicker.swift in Sources */,
 				1995C772275F7ED000E417C3 /* Task.swift in Sources */,
 				1995C76C275F7EB700E417C3 /* Home.swift in Sources */,
-				1995C75D275F7E7F00E417C3 /* DatePickerProjectApp.swift in Sources */,
+				1995C75D275F7E7F00E417C3 /* DatePickerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -365,8 +365,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = yi.DatePickerProject;
-				PRODUCT_NAME = DatePickerProject;
+				PRODUCT_BUNDLE_IDENTIFIER = yi.DatePicker;
+				PRODUCT_NAME = DatePicker;
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -395,8 +395,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = yi.DatePickerProject;
-				PRODUCT_NAME = DatePickerProject;
+				PRODUCT_BUNDLE_IDENTIFIER = yi.DatePicker;
+				PRODUCT_NAME = DatePicker;
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -411,6 +411,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -439,6 +440,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
