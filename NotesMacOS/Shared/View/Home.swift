@@ -18,7 +18,6 @@ struct Home: View {
             if isMacOS(){
                 Group {
                     SideBar()
-                    
                     Rectangle()
                         .fill(Color.gray.opacity(0.15))
                         .frame(width: 1)
@@ -33,6 +32,9 @@ struct Home: View {
         #endif
         .frame(width: isMacOS() ? getRect().width / 1.7 : nil, height: isMacOS() ? getRect().height - 180 : nil,alignment: .leading)
         .background(Color.white.ignoresSafeArea())
+        #if os(iOS)
+        .overlay(SideBar())
+        #endif
         .preferredColorScheme(.light)
     }
     @ViewBuilder
@@ -50,7 +52,9 @@ struct Home: View {
             .overlay(
                 Rectangle()
                     .fill(Color.gray.opacity(0.15))
-                    .frame(height:1),
+                    .frame(height:1)
+                    .padding(.horizontal,-25)
+                    .offset(y: 6),
                 alignment: .bottom
             )
             
@@ -160,6 +164,7 @@ struct Home: View {
             Image(systemName: "plus")
                 .font(.title2)
                 .foregroundColor(.white)
+                .scaleEffect()
                 .scaleEffect(animationButton ? 1.1 : 1)
                 .padding(isMacOS() ? 12 : 15)
                 .background(Color.black)

@@ -2,7 +2,7 @@
 //  ContentView.swift
 //  Shared
 //
-//  Created by Elon on 2022/7/4.
+//  Created by Elon on 2022/7/9.
 //
 
 import SwiftUI
@@ -10,9 +10,6 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         Home()
-            .buttonStyle(BorderlessButtonStyle())
-            .textFieldStyle(PlainTextFieldStyle())
-            
     }
 }
 
